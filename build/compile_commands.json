@@ -1,0 +1,31 @@
+[
+{
+  "directory": "/home/ilgiz/CodeProjects/MOD_coortime/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/ilgiz/NEWretkslp/retk2 -I/home/ilgiz/NEWretkslp/apks_slp -I../  -g   -o CMakeFiles/my_mod_coortime.dir/main.cpp.o -c /home/ilgiz/CodeProjects/MOD_coortime/main.cpp",
+  "file": "/home/ilgiz/CodeProjects/MOD_coortime/main.cpp"
+},
+
+{
+  "directory": "/home/ilgiz/CodeProjects/MOD_coortime/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/ilgiz/NEWretkslp/retk2 -I/home/ilgiz/NEWretkslp/apks_slp -I../  -g   -o CMakeFiles/my_mod_coortime.dir/dbc_client.cpp.o -c /home/ilgiz/CodeProjects/MOD_coortime/dbc_client.cpp",
+  "file": "/home/ilgiz/CodeProjects/MOD_coortime/dbc_client.cpp"
+},
+
+{
+  "directory": "/home/ilgiz/CodeProjects/MOD_coortime/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/ilgiz/NEWretkslp/retk2 -I/home/ilgiz/NEWretkslp/apks_slp -I../  -g   -o CMakeFiles/my_mod_coortime.dir/Programm.cpp.o -c /home/ilgiz/CodeProjects/MOD_coortime/Programm.cpp",
+  "file": "/home/ilgiz/CodeProjects/MOD_coortime/Programm.cpp"
+},
+
+{
+  "directory": "/home/ilgiz/CodeProjects/MOD_coortime/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/ilgiz/NEWretkslp/retk2 -I/home/ilgiz/NEWretkslp/apks_slp -I../  -g   -o CMakeFiles/my_mod_coortime.dir/gpsdgps.cpp.o -c /home/ilgiz/CodeProjects/MOD_coortime/gpsdgps.cpp",
+  "file": "/home/ilgiz/CodeProjects/MOD_coortime/gpsdgps.cpp"
+},
+
+{
+  "directory": "/home/ilgiz/CodeProjects/MOD_coortime/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/ilgiz/NEWretkslp/retk2 -I/home/ilgiz/NEWretkslp/apks_slp -I../  -g   -o CMakeFiles/my_mod_coortime.dir/uartgps.cpp.o -c /home/ilgiz/CodeProjects/MOD_coortime/uartgps.cpp",
+  "file": "/home/ilgiz/CodeProjects/MOD_coortime/uartgps.cpp"
+}
+]

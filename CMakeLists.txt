@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(my_mod_coortime VERSION 0.1.0)
+
+include(CTest)
+enable_testing()
+include_directories("/home/ilgiz/NEWretkslp/retk2")
+include_directories("/home/ilgiz/NEWretkslp/apks_slp")
+include_directories("/home/ilgiz/CodeProjects/MOD_coortime")
+set(SOURCES main.cpp dbc_client.hpp dbc_client.cpp Programm.hpp Programm.cpp basegps.hpp gpsdgps.cpp gpsdgps.hpp UBXparser.hpp uartgps.cpp uartgps.hpp)
+add_executable(my_mod_coortime ${SOURCES})
+#target_link_libraries(my_mod_coortime /home/ilgiz/NEWretkslp/retk2/_linux/libretk2.a /home/ilgiz/NEWretkslp/apks_slp/bin/Release/libslp.a gps)
+target_link_libraries(my_mod_coortime /home/ilgiz/NEWretkslp/retk2/_armv7/libretk2.a /home/ilgiz/NEWretkslp/apks_slp/cross_build_slp_lua/bin/Release/libslp.a /home/ilgiz/KHADASSDCARDIMAGE/ROOTFS1/usr/lib/libgps.so)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)
